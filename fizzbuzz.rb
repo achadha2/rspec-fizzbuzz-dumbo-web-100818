@@ -3,11 +3,11 @@
 
 def fizzbuzz(num)
   if num % 15 == 0
-    p "fizzbuzz"
+    p "Fizzbuzz"
   else if num % 5 == 0
-    p "buzz"
+    p "Buzz"
   else if num % 3 == 0
-    p "fizz"
+    p "Fizz"
   else
     return nil
   end
