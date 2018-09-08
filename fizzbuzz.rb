@@ -3,8 +3,10 @@
 
 def fizzbuzz(num)
   if num % 15 == 0
-  p "fizzbuzz"
-end
+    p "fizzbuzz"
+  else if num % == 0
+    p "buzz"
+  end
 end
 
 fizzbuzz(30)
