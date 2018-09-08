@@ -6,9 +6,13 @@ def fizzbuzz(num)
     p "fizzbuzz"
   else if num % 5 == 0
     p "buzz"
+  else if num % 3 == 0
+    p "fizz"
+  else
+    return nil
   end
-  
-end
+  end
+  end
 end
 
 fizzbuzz(25)
