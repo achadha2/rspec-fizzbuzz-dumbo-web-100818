@@ -2,7 +2,8 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(num)
-  p num % 3
+  if num % 15 == 0
+  p "fizzbuzz"
 end
 
-fizzbuzz(6)
+fizzbuzz(30)
