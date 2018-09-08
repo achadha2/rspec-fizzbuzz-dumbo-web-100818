@@ -8,5 +8,6 @@ def fizzbuzz(num)
     p "buzz"
   end
 end
+end
 
 fizzbuzz(30)
