@@ -5,5 +5,6 @@ def fizzbuzz(num)
   if num % 15 == 0
   p "fizzbuzz"
 end
+end
 
 fizzbuzz(30)
